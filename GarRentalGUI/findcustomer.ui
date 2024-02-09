@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FindCustomer</class>
+ <widget class="QWidget" name="FindCustomer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>516</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>88</y>
+     <width>83</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Assign</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="Assgincarreg">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Type in car regristration number to assign to customer:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Unassign">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>240</y>
+     <width>83</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Unassign</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="UnassignRegText">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Type in car regristration number to unassign from customer:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
